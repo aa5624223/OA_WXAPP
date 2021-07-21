@@ -1,0 +1,32 @@
+/* pages/Certify/Certify.wxss */
+/**index.wxss**/
+.logo{
+  height: 60px;
+  width: 150px;
+}
+.logoArea{
+  text-align:center;
+  margin-top:100rpx;
+  margin-bottom: 100rpx;
+}
+.confirm-btn{
+  background: #07c160;
+}
+.weui-input{
+  margin-left: 30px;
+}
+.weui-btn-area{
+  margin-top: 20px;
+}
+.weui-cells::before{
+border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cells::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::before{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}
+.weui-cell::after{
+  border-top: 0rpx solid rgba(0,0,0,.1)!important
+}

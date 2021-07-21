@@ -1,0 +1,27 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+  <view class="wrapper">
+    <view class="left-top-sign">常发集团</view>
+    <View class="welcome">签名小程序</View>
+    <view class="input-content">
+      <view class="input-item">
+        <text class="tit">OA账号</text>
+        <input type="text" placeholder="OA账号" bindinput="bindInput" 
+        id="input_username"
+        />
+      </view> 
+      <view class="input-item">
+        <text class="tit">OA密码</text>
+        <input type="password" placeholder="OA密码" password="true" bindinput="bindInput" id="input_pas"/>
+      </view>
+      <button class="confirm-btn" bindgetuserinfo="login"  open-type="getUserInfo">授权登录</button>
+      <view class="forget-section">
+        使用手册
+      </view>
+    </view>
+  </view>
+  <view class="register-section">
+    xxxxxxx?
+    <text >验证</text>
+  </view>
+</view>

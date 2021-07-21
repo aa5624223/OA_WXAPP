@@ -1,0 +1,23 @@
+<!--pages/sign2/sign2.wxml-->
+<view class="wrapper">
+  <view class="handBtn">
+    <image 
+      catchtap="selectColorEvent"
+      src="{{selectColor==='black'?'../../images/color_black_selected.png':'../../images/color_black.png'}}"
+      data-color="black"
+      class = "{{selectColor==='black'?'color_select':''}} black-select"
+    ></image>
+    <view class="text-header">请横向书写</view>
+    <button catchtap="retDraw" size="mini" class="delBtn">重写</button>
+    <button catchtap="subCanvas" size="mini" class="subBtn">完成</button> 
+  </view>
+  <view class="handCenter">
+    <canvas class="handWriting" disable-scroll="true" 
+      bindtouchstart="uploadScaleStart" 
+      bindtouchmove="uploadScaleMove"
+      bindtouchend="uploadScaleEnd" 
+      canvas-id="handWriting"
+      id="handWriting">
+    </canvas>
+  </view>
+</view>

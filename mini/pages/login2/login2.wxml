@@ -1,0 +1,26 @@
+<!--pages/Certify/Certify.wxml-->
+<view class="container">
+  <view class="logoArea">
+    <image class="logo" src="../../images/logo.jpg" mode="cover"></image>
+  </view>
+  <form bindsubmit="btn_Confirm">
+  <mp-cells title="">
+    <input name='aid' value="{{aid}}" style="display:none"></input>
+    <mp-cell title="识别码" style="display:none" ext-class="">
+      <input data-field="openid"  name='openid' class="weui-input" placeholder="" disabled='disabled' value="{{openid}}" />
+    </mp-cell>
+  </mp-cells>
+  <mp-cells title="OA信息">
+    <mp-cell title="账 号" ext-class="">
+      <input data-field="UserId" bindinput="bindInput" 
+        id="input_username"  class="weui-input" placeholder="请输入OA账号" />
+    </mp-cell>
+    <mp-cell title="密  码" ext-class="">
+      <input data-field="UserId" bindinput="bindInput" id="input_pas" class="weui-input" type="password" placeholder="请输入OA密码" />
+    </mp-cell>
+  </mp-cells>
+  <view class="weui-btn-area">
+    <button bindgetuserinfo="login"  open-type="getUserInfo" type="primary">授权登录</button>
+  </view>
+  </form>
+</view>

@@ -1,0 +1,37 @@
+<!--pages/index/index.wxml-->
+<view class="wrapper">
+  <view class="handBtn">
+    <!-- 白色铅笔 -->
+    <image 
+      catchtap="selectColorEvent"
+      src="{{selectColor==='black'?'../../images/color_black_selected.png':'../../images/color_black.png'}}"
+      data-color="black"
+      class = "{{selectColor==='black'?'color_select':''}} black-select"
+    ></image>
+    <!-- 黑色铅笔 -->
+    <!-- <image 
+      catchtap="selectColorEvent"
+      src="{{selectColor==='red'?'../../images/color_red_selected.png':'../../images/color_red.png'}}"
+      data-color="red"
+      class = "{{selectColor==='red'?'color_select':''}} red-select"
+    ></image> -->
+    <button catchtap="retDraw" class="delBtn">重写</button>
+    <button catchtap="subCanvas" class="subBtn">完成</button> 
+  </view>
+  <view class="handCenter">
+    <!-- bindtap="mouseDown"  -->
+    <canvas class="handWriting" disable-scroll="true" 
+      bindtouchstart="uploadScaleStart" 
+      bindtouchmove="uploadScaleMove"
+      bindtouchend="uploadScaleEnd" 
+      canvas-id="handWriting"
+      id="handWriting"
+      >
+    </canvas>
+  </view>
+  
+  <view class="handRight">
+    <view class="handTitle">请横向书写</view>
+  </view>
+  
+</view>

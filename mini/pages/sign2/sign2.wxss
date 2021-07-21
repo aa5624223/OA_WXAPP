@@ -1,0 +1,77 @@
+/* pages/sign2/sign2.wxss */
+page {
+  background: #fbfbfb;
+  height: auto;
+  overflow: hidden;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* 
+  按钮 区域
+*/
+.delBtn {
+  position: absolute;
+  top: 20rpx;
+  right: 220rpx;
+  /* transform: rotate(90deg); */
+  color: #666;
+}
+.subBtn{
+  position: absolute;
+  top: 20rpx;
+  right: 110px;
+  background: #008ef6;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+/* 激活模式 */
+.black-select.color_select {
+  width: 30px;
+  height: 30px;
+  top: 30rpx;
+  left: 10rpx;
+}
+/* 黑色铅笔按钮 */
+.black-select {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+/* 激活模式 */
+.red-select.color_select {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.text-header{
+  position: absolute;
+  left: 35%;
+  top:15px;
+  color:red;
+  font-weight: 600;
+  font-size: 140%;
+  font-weight: 600;
+}
+/*
+  书写部分
+*/
+.handCenter{
+  border: 4rpx dashed #e9e9e9;
+  position: absolute;
+  top:60px;
+  left: 105px;
+  width: 450px;
+  height: 225px;
+}
+.handWriting{
+  background: #fff;
+  width: 450px;
+  height: 225px;
+}

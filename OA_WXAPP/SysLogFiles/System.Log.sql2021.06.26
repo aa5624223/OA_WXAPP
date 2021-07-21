@@ -1,0 +1,55 @@
+2021-06-26 14:52:25,115 [13] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 14:52:34,741 [10] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 14:53:28,959 [9] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:20:06,031 [66] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:20:12,500 [66] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:21:06,242 [49] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:23:44,456 [5] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:24:51,246 [6] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:25:56,988 [7] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:26:01,596 [7] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 692
+2021-06-26 17:28:56,089 [6] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 
+System.Runtime.InteropServices.ExternalException (0x80004005): GDI+ 中发生一般性错误。
+   在 System.Drawing.Image.Save(String filename, ImageCodecInfo encoder, EncoderParameters encoderParams)
+   在 System.Drawing.Image.Save(String filename, ImageFormat format)
+   在 OA_WXAPP.Controllers.HomeController.downFtpImg(String uri, String UserName, String Password, String Name) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 693

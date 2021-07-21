@@ -1,0 +1,7 @@
+/**app.wxss**/
+page{
+  height: 100%;
+}
+.container{
+  margin: 20rpx 20rpx
+}

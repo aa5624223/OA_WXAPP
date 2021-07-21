@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login2/login2",
+    "pages/person/person",
+    "pages/switch/switch",
+    "pages/login/login",
+    "pages/DataInput/DataInput",
+    "pages/sign2/sign2",
+    "pages/sign/sign"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "常发通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/switch/switch",
+        "text": "主页",
+        "iconPath": "/images/主页.png",
+        "selectedIconPath": "/images/主页sel.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人中心",
+        "iconPath": "/images/个人.png",
+        "selectedIconPath": "/images/个人Sel.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

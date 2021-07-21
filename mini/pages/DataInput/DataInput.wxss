@@ -1,0 +1,11 @@
+/* pages/DataInput/DataInput.wxss */
+.previewimg image{
+  background-color: white;
+}
+/* 写字板位置 */
+.handWriting {
+  background: #fff;
+  width: 500px;
+  height: 250px;
+  
+}

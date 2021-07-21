@@ -1,0 +1,126 @@
+/* pages/index/index.wxss */
+page {
+  background: #fbfbfb;
+  height: auto;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 750rpx;
+  height: 100%;
+  margin: 0rpx ;
+  overflow: hidden;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 28rpx;
+}
+/* 
+  **
+  ** 侧边栏按钮 
+  **
+*/
+.handBtn {
+  height: 95vh;
+  width: 100%;
+  justify-content: space-between;
+  align-content: space-between;
+  flex: 1;
+}
+.handBtn button {
+  font-size: 28rpx;
+}
+/* 重写按钮 */
+.delBtn {
+  position: absolute;
+  top: 200rpx;
+  left: 0rpx;
+  transform: rotate(90deg);
+  color: #666;
+}
+.delBtn image {
+  position: absolute;
+  top: 13rpx;
+  left: 25rpx;
+}
+/* 完成按钮 */
+.subBtn {
+  position: absolute;
+  bottom: 52rpx;
+  left: 40rpx;
+  display: inline-flex;
+  /* transform: rotate(90deg); */
+  background: #008ef6;
+  color: #fff;
+  margin-bottom: 30rpx;
+  text-align: center;
+  justify-content: center;
+}
+/* 黑色铅笔按钮 */
+.black-select {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top: 30rpx;
+  left: 25rpx;
+}
+/* 激活模式 */
+.black-select.color_select {
+  width: 90rpx;
+  height: 90rpx;
+  top: 30rpx;
+  left: 10rpx;
+}
+/* 红色铅笔按钮 */
+.red-select {
+  width: 60rpx;
+  height: 60rpx;
+  position: absolute;
+  top:140rpx;
+  left:25rpx;
+}
+/* 激活模式 */
+.red-select.color_select {
+  width: 90rpx;
+  height: 90rpx;
+  top: 120rpx;
+  left: 10rpx;
+}
+/*
+**
+** 写字板板块
+**
+*/
+.handCenter {
+  border: 4rpx dashed #e9e9e9;
+  flex: 5;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: 300px;
+  height: 200px;
+}
+/* 写字板位置 */
+.handWriting {
+  background: #fff;
+  width: 300px;
+  height: 200px;
+}
+/* 
+**
+** 右侧标题部分 
+**
+*/
+.handRight {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* 右侧标题 */
+.handTitle {
+  transform: rotate(90deg);
+  flex: 1;
+  color: #666;
+  font-size: 140%;
+  font-weight: 600;
+}

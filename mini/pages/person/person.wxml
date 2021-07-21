@@ -1,0 +1,36 @@
+<view class="personalContainer">
+  <view class="user-section">
+    <image class="bg" src="/images/personal/bg2.jpg"></image>
+    <view class="user-info-box" bindtap="toLogin">
+    </view>
+
+    <view class="vip-card-box">
+      <view class="tit" >
+        <text class="iconfont icon-huiyuan-"></text>
+        姓名:{{userInfo.lastname}}
+        工号:{{userInfo.loginid}}
+      </view>
+    </view>
+  </view>
+  <view
+      class="cover-container"
+      bindtouchstart="handleTouchStart"
+      bindtouchmove="handleTouchMove"
+      bindtouchend="handleTouchEnd"
+      style="transform: {{coverTransform}}; transition: {{coveTransition}}"
+  >
+  <image class="arc" src="/images/personal/arc.png"></image>
+    <!-- 个人中心导航 -->
+    <view class="nav-section">
+      <view class="nav-item"  hover-class="common-hover"  hover-stay-time="50">
+        <text class="iconfont icon-xiaoxi"></text>
+        <text style="font-size:18px">我的消息</text>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+
+

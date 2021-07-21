@@ -1,0 +1,23 @@
+2021-06-23 14:42:50,803 [11] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 验证登录错误
+System.InvalidOperationException: ConnectionString 属性尚未初始化。
+   在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 OA_WXAPP.Controllers.HomeController.Login(FormCollection fc) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 86
+2021-06-23 14:44:09,221 [9] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 验证登录错误
+System.InvalidOperationException: ConnectionString 属性尚未初始化。
+   在 System.Data.SqlClient.SqlConnection.PermissionDemand()
+   在 System.Data.SqlClient.SqlConnectionFactory.PermissionDemand(DbConnection outerConnection)
+   在 System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   在 System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 OA_WXAPP.Controllers.HomeController.Login(FormCollection fc) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 86
+2021-06-23 16:08:57,688 [6] ERROR OA_WXAPP.Controllers.HomeController [(null)] <(null)> - 上传文件出错
+System.DivideByZeroException: 尝试除以零。
+   在 OA_WXAPP.Controllers.HomeController.getSign(FormCollection fc) 位置 E:\WorkSpace\OA_WXAPP\OA_WXAPP\Controllers\HomeController.cs:行号 198

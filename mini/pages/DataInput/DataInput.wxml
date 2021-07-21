@@ -1,0 +1,17 @@
+<!--pages/DataInput/DataInput.wxml-->
+<view>
+  <mp-cells ext-class="my-cells" title="">
+    <mp-cell value="个人信息:" footer="姓名：{{user.lastname}},工号:{{user.loginid}}"></mp-cell>
+    <view style="height:280px;width:300px;border:1px dashed;margin:auto">
+      <!-- 100px * 50px -->
+      <view wx:if="{{signUrl===''}}" style="padding-top:250rpx;text-align:center">
+          请上传签名
+      </view>
+      <image id="img" wx:if="{{signUrl!==''}}" src="{{signUrl}}">
+      </image>
+    </view>
+    <button style="margin-top:20px" bindtap="NavtoSign">手绘签名</button>
+    <button style="margin-top:20px" bindtap="uploadSign" type="primary">提交签名</button>
+    <button style="margin-top:20px" bindtap="switchToIndex" data-src="../switch/switch">返回首页</button>
+  </mp-cells>
+</view>
