@@ -395,6 +395,7 @@ namespace OA_WXAPP.Controllers
                 throw;
             }
         }
+
         /// <summary>
         /// 
         /// </summary>
@@ -768,7 +769,7 @@ namespace OA_WXAPP.Controllers
                 //bmp.RotateFlip(RotateFlipType.Rotate270FlipNone);
                 bmp.Save(FileName, System.Drawing.Imaging.ImageFormat.Png);
                 
-                return "/sign/SignTmp/" + Name;
+                return "/OA_WXAPP/sign/SignTmp/" + Name;
             }
             catch (Exception _e)
             {
