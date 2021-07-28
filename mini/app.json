@@ -13,7 +13,8 @@
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f8f8f8",
     "navigationBarTitleText": "常发通",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
   },
   "tabBar": {
     "color": "#333",
@@ -23,7 +24,7 @@
       {
         "pagePath": "pages/switch/switch",
         "text": "主页",
-        "iconPath": "/images/主页.png",
+        "iconPath": "/images/home.png",
         "selectedIconPath": "/images/主页sel.png"
       },
       {

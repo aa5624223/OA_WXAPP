@@ -1,5 +1,6 @@
 <!--pages/DataInput/DataInput.wxml-->
-<view>
+<top-bar navbar-data='{{navbarData}}' ></top-bar>
+<view style="margin-top:{{height}}px;">
   <mp-cells ext-class="my-cells" title="">
     <mp-cell value="个人信息:" footer="姓名：{{user.lastname}},工号:{{user.loginid}}"></mp-cell>
     <view style="height:280px;width:300px;border:1px dashed;margin:auto">

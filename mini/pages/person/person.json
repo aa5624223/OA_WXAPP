@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "top-bar":"/component/navTop/navTop"
+  }
 }

@@ -2,7 +2,6 @@
 .banners {
   width: 100%;
   height: 300rpx;
-
 }
 
 .banners image {
@@ -40,16 +39,9 @@
 .navItem text {
   font-size: 26rpx;
 }
-
-
-/* 推荐歌曲 */
 .recommendContainer {
   padding: 20rpx;
 }
-
-
-
-/* 推荐内容区*/
 .recommendScroll {
   display: flex;
   height: 300rpx;
@@ -69,30 +61,18 @@
 
 .scrollItem text {
   font-size: 26rpx;
-  /* 单行文本溢出隐藏 省略号代替 */
-  /*display: block;*/
-  /*white-space: nowrap;*/
-  /*overflow: hidden;*/
-  /*text-overflow: ellipsis;*/
-
-  /* 多行文本溢出隐藏 省略号代替*/
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical; /*设置对其模式*/
   -webkit-line-clamp: 2; /*设置多行的行数*/
 }
-
-
-/* 排行榜  */
 .topList {
   padding: 20rpx;
 }
-
 .topListSwiper {
   height: 400rpx;
 }
-
 .swiperItem {
   width: 96%;
   background: #fbfbfb;
@@ -104,7 +84,6 @@
 }
 
 .musicItem {
-  /* 当一个元素设置为flex，其子元素会自动成为block元素*/
   display: flex;
   margin-bottom: 20rpx;
 }
@@ -114,14 +93,12 @@
   height: 100rpx;
   border-radius: 6rpx;
 }
-
 .musicItem .count {
   width: 100rpx;
   height: 100rpx;
   text-align: center;
   line-height: 100rpx;
 }
-
 .musicItem .musicName {
   height: 100rpx;
   line-height: 100rpx;
@@ -129,4 +106,10 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+.home-page {
+  height: 160rpx;
+  width: 100%;
+  border: 1rpx solid red;
+  font-size: 60rpx;
 }

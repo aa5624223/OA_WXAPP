@@ -3,12 +3,17 @@ import Memory from '../../utils/memory'
 let startY = 0; // 手指起始的坐标
 let moveY = 0; // 手指移动的坐标
 let moveDistance = 0; // 手指移动的距离
+const app = getApp() 
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
+    navbarData: {
+      showCapsule: 1, //是否显示左上角图标   1表示显示    0表示不显示
+      title: '常发通', //导航栏 中间的标题
+    },
     coverTransform: 'translateY(0)',
     coveTransition: '',
     userInfo: {}, // 用户信息

@@ -16,13 +16,15 @@ Page({
    * 
    */
   onLoad:  function (options) {
+    
+  },
+  onShow:function(){
     Memory.user = wx.getStorageSync('user');
-    console.log(Memory.user );
-    // if(Memory.user){
-    //   wx.navigateTo({
-    //     url: '../DataInput/DataInput',
-    //   })
-    // }
+    if(Memory.user){
+      wx.switchTab({
+        url: '/pages/switch/switch',
+      })
+    }
   },
   login:  function(res){
     const {userName,userPas} = this.data;

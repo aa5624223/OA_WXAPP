@@ -1,18 +1,23 @@
 // pages/switch/switch.js
+const app = getApp()
 Page({
 
   /**
    * 页面的初始数据
-   */
+   */ 
   data: {
-    iconList:[]
+    navbarData: {
+      showCapsule: 1, //是否显示左上角图标   1表示显示    0表示不显示
+      title: '常发通', //导航栏 中间的标题
+    },
+    height: app.globalData.height * 2 + 20 ,
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    
   },
 
   /**
