@@ -1,0 +1,7 @@
+<!--pages/t1/t1.wxml-->
+<view id="box">
+  <view id="child1" ></view>
+  <view id="child2"></view>
+  <view id="child3"></view>
+  <view id="child4"></view>
+</view>

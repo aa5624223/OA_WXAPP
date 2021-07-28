@@ -6,7 +6,8 @@
     "pages/login/login",
     "pages/DataInput/DataInput",
     "pages/sign2/sign2",
-    "pages/sign/sign"
+    "pages/sign/sign",
+    "pages/t1/t1"
   ],
   "window": {
     "backgroundTextStyle": "light",

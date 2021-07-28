@@ -3,13 +3,13 @@
   <!-- 轮播图区域 -->
   <swiper class="banners" indicator-dots indicator-color='ivory' indicator-active-color='#d43c33'>
     <swiper-item>
-      <image src="/images/switch/20190807101437.jpg"></image>
+      <image src="/images/personal/bg2.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/switch/20190807101437.jpg"></image>
+      <image src="/images/switch/b2.jpg"></image>
     </swiper-item>
     <swiper-item>
-      <image src="/images/switch/20190807101437.jpg"></image>
+      <image src="/images/switch/b3.jpg"></image>
     </swiper-item>
   </swiper>
 
@@ -17,7 +17,7 @@
   <view class="navContainer">
     <view class="navItem" bindtap="toRecommendSong" bindtap="redirect" data-src="../DataInput/DataInput" > 
       <image src="/images/switch/sign.png" style="height:50px;width:50px"></image>
-      <text style="font-size:18px">签名服务</text>
+      <text style="font-size:18px">个人签名</text>
     </view>
   </view>
 </view>

@@ -31,6 +31,14 @@ Page({
   },
   uploadSign: function(){
     let url = this.data.signUrl;
+    console.dir(url);
+    if(url===null || url===undefined || url===""){
+      wx.showModal({
+        title:'提示',
+        content:'请先上传签名，再提交签名'
+      })
+      return;
+    }
     let fc = wx.getFileSystemManager();
     let _this = this;
     fc.readFile({
