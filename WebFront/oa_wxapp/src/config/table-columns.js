@@ -8,6 +8,14 @@ export const SignList_Columns = (_this) => {
   //sortedInfo = sortedInfo || {};
   return [
     {
+      title:"工号",
+      dataIndex:"loginid",
+      key: "lastname",
+      width: 80,
+      fixed: "left",
+      ...getColumnSearchProps('loginid',_this),
+    },
+    {
       title: "姓名",
       dataIndex: "lastname",
       key: "lastname",

@@ -5,6 +5,7 @@
     "mp-cell": "/weui-miniprogram/cell/cell",
     "mp-checkbox": "/weui-miniprogram/checkbox/checkbox",
     "mp-checkbox-group": "/weui-miniprogram/checkbox-group/checkbox-group",
+    "top-bar":"/component/navTop/navTop",
     "mp-form": "/weui-miniprogram/form/form"
   },
   "navigationBarTitleText": "登录授权"

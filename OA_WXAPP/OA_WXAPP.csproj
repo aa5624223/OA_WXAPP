@@ -140,11 +140,11 @@
     <Content Include="sign\Signtmp\100096.png" />
     <Content Include="sign\Signtmp\100139.png" />
     <Content Include="sign\Signtmp\150006.png" />
-    <Content Include="sign\static\css\2.290d03ed.chunk.css" />
+    <Content Include="sign\static\css\2.e8b81038.chunk.css" />
     <Content Include="sign\static\css\main.1a9db2da.chunk.css" />
-    <Content Include="sign\static\js\2.6e68c54e.chunk.js" />
-    <Content Include="sign\static\js\2.6e68c54e.chunk.js.LICENSE.txt" />
-    <Content Include="sign\static\js\main.97bf2fc6.chunk.js" />
+    <Content Include="sign\static\js\2.31431e77.chunk.js" />
+    <Content Include="sign\static\js\2.31431e77.chunk.js.LICENSE.txt" />
+    <Content Include="sign\static\js\main.0a17d481.chunk.js" />
     <Content Include="sign\static\js\runtime-main.ad3e45d2.js" />
     <Content Include="sign\static\media\999.b9883ce8.png" />
     <Content Include="sign\static\media\cf_b.7b69f992.jpg" />
@@ -184,10 +184,10 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="sign\asset-manifest.json" />
-    <Content Include="sign\static\css\2.290d03ed.chunk.css.map" />
+    <Content Include="sign\static\css\2.e8b81038.chunk.css.map" />
     <Content Include="sign\static\css\main.1a9db2da.chunk.css.map" />
-    <Content Include="sign\static\js\2.6e68c54e.chunk.js.map" />
-    <Content Include="sign\static\js\main.97bf2fc6.chunk.js.map" />
+    <Content Include="sign\static\js\2.31431e77.chunk.js.map" />
+    <Content Include="sign\static\js\main.0a17d481.chunk.js.map" />
     <Content Include="sign\static\js\runtime-main.ad3e45d2.js.map" />
     <None Include="packages.config" />
   </ItemGroup>

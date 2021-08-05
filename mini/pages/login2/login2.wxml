@@ -1,5 +1,6 @@
 <!--pages/Certify/Certify.wxml-->
-<view class="container">
+<top-bar navbar-data='{{navbarData}}' ></top-bar>
+<view class="container" style="margin-top:{{height+20}}px">
   <view class="logoArea">
     <image class="logo" src="../../images/logo.jpg" mode="cover"></image>
   </view>

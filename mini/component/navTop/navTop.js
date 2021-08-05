@@ -22,7 +22,6 @@ Component({
     })
     let pages = getCurrentPages();
     let isBackShow = true;
-    console.dir(pages);
     if(pages.length === undefined || pages.length<=1){
       isBackShow=false;
     }
@@ -41,8 +40,8 @@ Component({
     },
   //返回到首页
     _backhome() {
-      wx.redirectTo({
-        url: '/pages/login2/login2',
+      wx.switchTab({
+        url: '/pages/switch/switch',
       })
     }
   }
